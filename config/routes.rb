@@ -1,7 +1,16 @@
 Veganbff::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  devise_for :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
+  root :to => "registrations#new"
+  
+  #mount Monologue::Engine, at: '/blog'
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
