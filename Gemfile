@@ -4,6 +4,7 @@ gem 'rails', '3.2.11'
 gem 'monologue'
 gem 'devise', '2.1.0.rc'
 gem 'activeadmin'
+gem 'twitter-bootswatch-rails-helpers'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -25,6 +26,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   gem 'less-rails'
   gem 'therubyracer'
+  gem 'twitter-bootswatch-rails', '>= 2.3.1.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
