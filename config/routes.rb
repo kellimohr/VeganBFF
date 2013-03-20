@@ -1,4 +1,6 @@
 Veganbff::Application.routes.draw do
+  get "home/index"
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
@@ -8,7 +10,7 @@ Veganbff::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
-  root :to => "registrations#new"
+  root :to => "home#index"
   
   #mount Monologue::Engine, at: '/blog'
   # Sample of regular route:
