@@ -1,5 +1,12 @@
 Veganbff::Application.routes.draw do
-  get "home/index"
+  match 'auth/:provider/callback' => 'authentications#create'
+  #get "authentication/index"
+
+  #get "authentication/create"
+
+  #get "authentication/destroy"
+
+  #get "home/index"
 
   root :to => "home#index"
 
@@ -7,7 +14,9 @@ Veganbff::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
-  devise_for :users
+  devise_for :users, :controllers => {:registrations => 'registrations'}
+
+  resources :authentications
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

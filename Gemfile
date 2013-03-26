@@ -5,6 +5,8 @@ gem 'monologue'
 gem 'devise', '2.1.0.rc'
 gem 'activeadmin'
 gem 'twitter-bootswatch-rails-helpers'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
