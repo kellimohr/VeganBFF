@@ -1,14 +1,22 @@
 ---
+facebook_64.png: facebook_64-09b3e91f736f00ddda0d3f98edd9ca2d.png
+facebook_64/index.png: facebook_64-09b3e91f736f00ddda0d3f98edd9ca2d.png
+google_64.png: google_64-149405b021112c33c2932e6531b5d688.png
+google_64/index.png: google_64-149405b021112c33c2932e6531b5d688.png
+openid_64.png: openid_64-202b369bb46124bf66089e041f291eed.png
+openid_64/index.png: openid_64-202b369bb46124bf66089e041f291eed.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+twitter_64.png: twitter_64-96a9d5f99a596bedf227258ff7dfc648.png
+twitter_64/index.png: twitter_64-96a9d5f99a596bedf227258ff7dfc648.png
 active_admin.js: active_admin-76495de5f9a0a6af340457a8d11e1130.js
 active_admin/index.js: active_admin-76495de5f9a0a6af340457a8d11e1130.js
-application.js: application-9335b6584632df91a7c6a925b3a91671.js
-application/index.js: application-9335b6584632df91a7c6a925b3a91671.js
+application.js: application-cb360a181c1bbfa93708753a43a4577f.js
+application/index.js: application-cb360a181c1bbfa93708753a43a4577f.js
 active_admin.css: active_admin-f58fc98e42733be6473403cf53156e11.css
 active_admin/index.css: active_admin-f58fc98e42733be6473403cf53156e11.css
-application.css: application-907c7c05f4775bf8182dc724bcc4b1b8.css
-application/index.css: application-907c7c05f4775bf8182dc724bcc4b1b8.css
+application.css: application-a1caa926faf922b36c5d155530201ab2.css
+application/index.css: application-a1caa926faf922b36c5d155530201ab2.css
 twitter/bootstrap/glyphicons-halflings-white.png: twitter/bootstrap/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 twitter/bootstrap/glyphicons-halflings-white/index.png: twitter/bootstrap/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 twitter/bootstrap/glyphicons-halflings.png: twitter/bootstrap/glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
