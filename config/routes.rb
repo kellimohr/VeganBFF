@@ -1,4 +1,10 @@
 Veganbff::Application.routes.draw do
+  resources :companies
+
+
+  resources :products
+
+
   match 'auth/:provider/callback' => 'authentications#create'
   #get "authentication/index"
 
@@ -8,7 +14,7 @@ Veganbff::Application.routes.draw do
 
   #get "home/index"
 
-  root :to => "home#index"
+  root :to => "products#index"
 
   ActiveAdmin.routes(self)
 

@@ -29,6 +29,7 @@ group :assets do
   gem 'less-rails'
   gem 'therubyracer'
   gem 'twitter-bootswatch-rails', '>= 2.3.1.0'
+  gem 'simple_form'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
