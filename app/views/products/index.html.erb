@@ -7,6 +7,7 @@
         <li class="span4">
           <div class="thumbnail">
             <h4><%= link_to product.name,  product_path(product) %></h4>
+            <p><%= product.company.name %></p>
             <% if user_signed_in? %>
             <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_product_path(product), :class => 'btn btn-mini' %>

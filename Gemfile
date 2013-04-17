@@ -7,6 +7,7 @@ gem 'activeadmin'
 gem 'twitter-bootswatch-rails-helpers'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
+gem 'amazon-ecs'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
