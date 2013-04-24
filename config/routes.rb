@@ -1,4 +1,7 @@
 Veganbff::Application.routes.draw do
+  resources :events
+
+
   resources :companies
 
 
