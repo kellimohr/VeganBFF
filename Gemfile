@@ -4,7 +4,7 @@ gem 'rails', '3.2.11'
 gem 'monologue'
 gem 'devise', '2.1.0.rc'
 gem 'activeadmin'
-gem 'twitter-bootswatch-rails-helpers'
+#gem 'twitter-bootswatch-rails-helpers'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'amazon-ecs'
@@ -29,7 +29,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   gem 'less-rails'
   gem 'therubyracer'
-  gem 'twitter-bootswatch-rails', '>= 2.3.1.0'
+ # gem 'twitter-bootswatch-rails', '>= 2.3.1.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
