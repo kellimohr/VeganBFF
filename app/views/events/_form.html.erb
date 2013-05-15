@@ -3,11 +3,14 @@
 
   <div class="form-inputs">
     <%= f.input :name %>
-    <%= f.input :held_on %>
+    <%= f.input :date, :as => :datepicker %>
+    <%= f.input :start_time %>
+    <%= f.input :end_time %>
     <%= f.input :address %>
     <%= f.input :city %>
     <%= f.input :state %>
     <%= f.input :zip %>
+    <%= f.input :url %>
     <%= f.input :notes %>
   </div>
 
