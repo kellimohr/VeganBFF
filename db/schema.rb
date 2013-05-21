@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130515031902) do
+ActiveRecord::Schema.define(:version => 20130521043218) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -73,6 +73,15 @@ ActiveRecord::Schema.define(:version => 20130515031902) do
     t.string   "url"
     t.time     "start_time"
     t.time     "end_time"
+  end
+
+  create_table "ingredients", :force => true do |t|
+    t.string   "name"
+    t.string   "recipe_id"
+    t.string   "measurement"
+    t.string   "quantity"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "monologue_posts", :force => true do |t|
