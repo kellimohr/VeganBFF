@@ -3,21 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d6388432-46b9-4006-af7d-0073a7ca16c0" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/inputs/datepicket_input.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/new.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/show.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ingredients/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/ingredients/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ingredient.rb" afterPath="$PROJECT_DIR$/app/models/ingredient.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/recipe.rb" afterPath="$PROJECT_DIR$/app/models/recipe.rb" />
     </list>
     <ignored path="veganbff.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1369108507750" ignored="false" />
-    <file path="/_form.html.erb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1368587954242" ignored="false" />
+    <file path="/_form.html.erb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1369111207143" ignored="false" />
     <file path="/show.html.erb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1368585895796" ignored="false" />
     <file path="/20130515031902_rename_column.rb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1368588091696" ignored="false" />
     <file path="/events_controller.rb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1369109052002" ignored="false" />
+    <file path="$PROJECT_DIR$/config/routes.rb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1369110897876" ignored="false" />
+    <file path="/recipe.rb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1369110948055" ignored="false" />
+    <file path="/ingredient.rb" changelist="d6388432-46b9-4006-af7d-0073a7ca16c0" time="1369110968303" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,46 +36,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="-10.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datepicker_input.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/inputs/datepicker_input.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5685921">
+            <state line="21" column="19" selection-start="501" selection-end="501" vertical-scroll-proportion="-13.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dates.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dates.js.coffee">
+      <file leaf-file-name="product.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/product.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/company.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="23" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="433" selection-end="433" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="2" selection-start="106" selection-end="169" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/ingredients/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="20" selection-start="193" selection-end="193" vertical-scroll-proportion="0.084745765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ingredient.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/ingredient.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="40" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,6 +151,10 @@
         <option value="$PROJECT_DIR$/db/migrate/20130515031902_rename_column.rb" />
         <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/recipe.rb" />
+        <option value="$PROJECT_DIR$/app/models/ingredient.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/ingredients/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -230,7 +278,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="recipes" />
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="veganbff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="veganbff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingredients" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,7 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inputs" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,61 +559,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dates.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130515031902_rename_column.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/inputs/datepicker_input.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dates.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130514043156_add_url_to_event.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130515023827_add_start_time_and_end_time_to_events.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="66" selection-start="170" selection-end="170" vertical-scroll-proportion="0.16014235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.465035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="62" selection-start="188" selection-end="188" vertical-scroll-proportion="0.40106952" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -586,7 +601,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5685921">
+        <state line="21" column="19" selection-start="501" selection-end="501" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/company.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ingredient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="433" selection-end="433" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="106" selection-end="169" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ingredients/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="193" selection-end="193" vertical-scroll-proportion="0.084745765">
           <folding />
         </state>
       </provider>

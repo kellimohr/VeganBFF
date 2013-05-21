@@ -1,6 +1,6 @@
 <%= simple_form_for @ingredient, :html => { :class => 'form-horizontal' } do |f| %>
   <%= f.input :name %>
-  <%= f.input :recipe_id %>
+    <%= f.collection_select :recipe_id, Recipe.all, :id, :name %>
   <%= f.input :measurement %>
   <%= f.input :quantity %>
   <div class="form-actions">
