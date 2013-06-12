@@ -7,7 +7,7 @@
   <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
   <dd><%= @ingredient.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:recipe_id) %>:</strong></dt>
-  <dd><%= @ingredient.recipe_id %></dd>
+  <dd><%= @ingredient.recipe.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:measurement) %>:</strong></dt>
   <dd><%= @ingredient.measurement %></dd>
   <dt><strong><%= model_class.human_attribute_name(:quantity) %>:</strong></dt>
@@ -16,11 +16,11 @@
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
-              ingredients_path, :class => 'btn'  %>
+              recipes_path, :class => 'btn'  %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_ingredient_path(@ingredient), :class => 'btn' %>
+              edit_recipe_ingredient_path(@ingredient), :class => 'btn' %>
   <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-              ingredient_path(@ingredient),
+              recipe_ingredient_path(@ingredient),
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>

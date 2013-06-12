@@ -1,8 +1,8 @@
 Veganbff::Application.routes.draw do
-  resources :ingredients
 
-
-  resources :recipes
+  resources :recipes do
+    resources :ingredients
+  end
 
 
   resources :events
@@ -23,7 +23,7 @@ Veganbff::Application.routes.draw do
 
   #get "home/index"
 
-  root :to => "products#index"
+  root :to => "recipes#index"
 
   ActiveAdmin.routes(self)
 

@@ -5,9 +5,33 @@
 
 <dl class="dl-horizontal">
   <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
-  <dd><%= @recipe.name %></dd>
-</dl>
+  <dd><strong><%= @recipe.name %></strong></dd>
 
+</dl>
+<div class="well">
+  <dd><%= link_to "Add Ingredient", new_recipe_ingredient_path(@recipe) %></dd>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th><%= model_class.human_attribute_name(:id) %></th>
+        <th><%= model_class.human_attribute_name(:name) %></th>
+        <th><%= model_class.human_attribute_name(:quantity) %></th>
+        <th><%= model_class.human_attribute_name(:measurement) %></th>
+        <th><%= model_class.human_attribute_name(:created_at) %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @recipe.ingredients.each do |ingredient| %>
+        <tr>
+          <td><%= link_to ingredient.id, recipe_ingredients_path(ingredient) %></td>
+          <td><%= ingredient.name %></td>
+          <td><%= ingredient.quantity %></td>
+          <td><%= ingredient.measurement %></td>
+          <td><%=l ingredient.created_at %></td>
+      <% end %>
+    </tbody>
+  </table>
+</div>
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               recipes_path, :class => 'btn'  %>
