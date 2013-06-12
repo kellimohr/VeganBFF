@@ -45,8 +45,4 @@ class IngredientsController < InheritedResources::Base
     def find_ingredient
       @ingredient = @recipe.ingredients.find(params[:id])
     end
-
-    #def ingredient_params
-     # params.require[:ingredient].permit[:name, :recipe_id, :measurement, :quantity]
-   # end
 end
