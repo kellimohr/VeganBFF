@@ -1,7 +1,10 @@
 class ChangeDataTypeForRecipeIdOnIngredients < ActiveRecord::Migration
   def self.up
-    change_table :ingredients do |t|
-      t.change :recipe_id, :integer
+    connection.execute(%q{alter table ingredients
+    	                  alter column recipe_id
+    	                  type integer using cast(string as integer)
+    	                 }
+    	               )
     end
   end
   def self.down
