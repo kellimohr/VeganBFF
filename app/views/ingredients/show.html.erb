@@ -18,9 +18,9 @@
   <%= link_to t('.back', :default => t("helpers.links.back")),
               recipes_path, :class => 'btn'  %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_recipe_ingredient_path(@ingredient), :class => 'btn' %>
+              edit_recipe_ingredient_path(@recipe, @ingredient), :class => 'btn' %>
   <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-              recipe_ingredient_path(@ingredient),
+              recipe_ingredient_path(@recipe, @ingredient),
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>

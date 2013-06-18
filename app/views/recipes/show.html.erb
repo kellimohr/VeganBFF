@@ -13,7 +13,6 @@
   <table class="table table-striped">
     <thead>
       <tr>
-        <th><%= model_class.human_attribute_name(:id) %></th>
         <th><%= model_class.human_attribute_name(:name) %></th>
         <th><%= model_class.human_attribute_name(:quantity) %></th>
         <th><%= model_class.human_attribute_name(:measurement) %></th>
@@ -23,8 +22,7 @@
     <tbody>
       <% @recipe.ingredients.each do |ingredient| %>
         <tr>
-          <td><%= link_to ingredient.id, recipe_ingredients_path(ingredient) %></td>
-          <td><%= ingredient.name %></td>
+          <td><%= link_to ingredient.name, recipe_ingredient_path(@recipe, ingredient) %></td>
           <td><%= ingredient.quantity %></td>
           <td><%= ingredient.measurement %></td>
           <td><%=l ingredient.created_at %></td>

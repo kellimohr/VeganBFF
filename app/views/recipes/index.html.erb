@@ -5,7 +5,6 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -14,8 +13,7 @@
   <tbody>
     <% @recipes.each do |recipe| %>
       <tr>
-        <td><%= link_to recipe.id, recipe_path(recipe) %></td>
-        <td><%= recipe.name %></td>
+        <td><%= link_to recipe.name, recipe_path(recipe) %></td>
         <td><%=l recipe.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
