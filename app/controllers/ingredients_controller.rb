@@ -12,7 +12,7 @@ class IngredientsController < InheritedResources::Base
 
     if @ingredient.save
       flash[:notice] = 'Ingredient has been added.'
-      redirect_to [@recipe, @ingredient]
+      redirect_to [@recipe]
     else
       flash[:alert] = 'Ingredient was not added.'
       render :action => "new"
@@ -30,7 +30,7 @@ class IngredientsController < InheritedResources::Base
   def update
     if @ingredient.update_attributes(params[:ingredient])
       flash[:notice] = "Ingredient has been updated."
-      redirect_to [@recipe, @ingredient]
+      redirect_to [@recipe]
     else
       flash[:alert] = "Ingredient has not been updated."
       render :action => "edit"
