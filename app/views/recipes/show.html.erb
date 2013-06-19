@@ -16,7 +16,7 @@
         <th><%= model_class.human_attribute_name(:name) %></th>
         <th><%= model_class.human_attribute_name(:quantity) %></th>
         <th><%= model_class.human_attribute_name(:measurement) %></th>
-        <th><%= model_class.human_attribute_name(:created_at) %></th>
+        <th><%= model_class.human_attribute_name(:notes) %></th>
       </tr>
     </thead>
     <tbody>
@@ -25,7 +25,7 @@
           <td><%= link_to ingredient.name, recipe_ingredient_path(@recipe, ingredient) %></td>
           <td><%= ingredient.quantity %></td>
           <td><%= ingredient.measurement %></td>
-          <td><%=l ingredient.created_at %></td>
+          <td><%= ingredient.notes %></td>
       <% end %>
     </tbody>
   </table>
