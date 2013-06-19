@@ -5,7 +5,6 @@ class ChangeDataTypeForRecipeIdOnIngredients < ActiveRecord::Migration
     	                  type integer using cast(string as integer)
     	                 }
     	               )
-    end
   end
   def self.down
     change_table :ingredients do |t|
